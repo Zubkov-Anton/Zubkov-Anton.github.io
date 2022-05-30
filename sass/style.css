@@ -1,0 +1,119 @@
+header {
+  min-height: 72px;
+  background-color: #FBFBFB;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navbar li a {
+  display: block;
+  padding: 0px 20px 0px 0px;
+  color: #3C3C3C;
+  text-decoration: none;
+  text-align: left;
+}
+
+.carusel {
+  min-height: 781px;
+  background: url("../img/bj/main.jpg") center center/cover no-repeat;
+}
+
+.carusel .row {
+  min-height: 781px;
+}
+
+.carusel_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-bottom: 20px;
+}
+
+.carusel_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.carusel_center_1, .carusel_center_2, .carusel_center_3 {
+  padding: 0 5px 0 5px;
+}
+
+.carusel_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 20px;
+}
+
+.promo {
+  background-color: #FBFBFB;
+  min-height: 781px;
+}
+
+.promo_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  min-height: 627px;
+  width: 1313px;
+  padding: 50px 0 0 30px;
+  background: #FBFBFB;
+}
+
+.promo .rectangle {
+  width: 895px;
+  height: 567px;
+  margin: 30px 0 30px 0;
+  background: rgba(151, 168, 118, 0.2);
+  top: 39px;
+  left: 15px;
+}
+
+.promo_text {
+  padding: 20px 0 0 135px;
+}
+
+.promo_text .text_info {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+/* .info
+    min-height: 300px
+    background-color: #FBFBFB
+    &_container
+        display: flex
+
+     */
+/*# sourceMappingURL=style.css.map */

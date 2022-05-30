@@ -1,0 +1,81 @@
+.carousel
+    padding-right: var(--bs-gutter-x,.75rem)
+    padding-left: var(--bs-gutter-x,.75rem)
+    padding-bottom: 5%
+
+    &_container
+        position: relative
+    
+        
+.carousel_button
+    opacity: 0
+    visibility: hidden
+    transition: .55s opacity, .55s visibility
+    &:hover
+        opacity: 1
+        visibility: visible
+
+.rt:hover ~ .carousel_button
+    opacity: 1
+    visibility: visible
+    
+            
+
+
+
+.prev,.next
+    position: absolute
+    height: 50px
+    width: 30px
+    padding: 0
+    border: none
+    background: none
+    top: 50%
+    transform: translateY(-50%)
+    left: 10px
+    
+    
+
+    @media (max-width:$Mobile_L)
+        display: none
+    
+
+    
+    &-top,&-bottom
+        background: #ffffff
+        height: 5px
+        width: 30px
+        border-radius: 6px 10px 10px 6px
+        
+        
+    
+
+    .prev-top 
+        transform: rotate(45deg)
+        transform-origin: bottom left
+    .prev-bottom
+        transform: rotate(-45deg)
+        transform-origin: top left
+    .next-top 
+        transform: rotate(-45deg)
+        transform-origin: bottom right
+    .next-bottom
+        transform: rotate(45deg)
+        transform-origin: top right
+    
+.next
+    right: 10px
+    left: auto
+   
+
+.tns-item
+    max-height: 780px
+    img
+        display: block
+        width: 100%
+        margin: 0 auto
+        
+
+    
+        
+    

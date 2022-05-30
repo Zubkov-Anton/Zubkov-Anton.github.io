@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- Самый главный тег на странице -->
+<head><!-- Шапка нашей страницы: тут будет ее основное описание -->
+    <meta charset="UTF-8"><!-- Кодировка нашей страницы -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- для совместимости с IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Для красивого отображения на телефонах -->
+    <meta name="description" content="Это мой первый пример страницы"><!-- Описание страницы -->
+    <meta name="autor" content="Anton"><!--Автор страницы  -->
+    <title>Lika Photographer</title>
+   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+ <!-- ##################Семантические теги########################
+    <header></header>   - Шапка сайта
+    <nav></nav>         - Навигационное меню
+    <article></article> - Оформление записи в блоге
+    <section></section> - Cекции на сайте
+    <aside></aside>     - Боковая колонка с информацией 
+    <main></main> основное содержание документа
+    <address></address> адрес сайта
+    <footer></footer> подвал
+    <wbr> перенос строки, если это необходимо
+    <time></time> время
+    ################################################################-->
+    <body>
+         <header class="header">
+             <section class="navbar">
+                <img src="img/logo/logo_1.svg" alt="logo" class="logo">
+                 <nav class="nav">
+                        <ul class="navbar_menu">
+                            <li><a href="#">ГЛАВНАЯ</a></li>
+                            <li><a href="#">УСЛУГИ</a></li>
+                            <li><a href="#">ОБУЧЕНИЕ</a></li>
+                            <li><a href="#">КОНТАКТЫ</a></li>
+                            <li><a href="#">ОБ АВТОРЕ</a></li>
+                        </ul>
+                </nav>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+        </header>
+
+        <section class="carousel">
+            <div class="carousel_container">
+                <div class="rt">
+                    <div class="carousel__inner">
+                        <div>
+                            <img src="img/bj/main1.jpg" alt="1">
+                        </div>
+                        <div>
+                            <img src="img/bj/main2.jpg" alt="2">
+                        </div>
+                        <div>
+                            <img src="img/bj/main3.jpg" alt="3">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel_button">
+                    <button type="button" class="prev">
+                        <div class="prev-top"></div>
+                        <div class="prev-bottom"></div>
+                    </button>
+                    <button type="button" class="next">
+                        <div class="next-top"></div>
+                        <div class="next-bottom"></div>
+                    </button>
+                </div>
+            </div>
+         </section>
+
+         <section class="promo">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-6 promo_col">
+                      <div class="promo_scale"><img src="img/bj/main3.jpg" alt="1" class="promo_img"></div>
+                  </div>
+                  <div class="col-sm-6 promo_col">
+                    <div class="promo_scale"><img src="img/bj/main3.jpg" alt="1" class="promo_img"></div>
+                  </div>
+                  <div class="col-sm-6 promo_col">
+                    <div class="promo_scale"><img src="img/bj/main3.jpg" alt="1" class="promo_img"></div>
+                  </div>
+                  <div class="col-sm-6 promo_col">
+                    <div class="promo_scale"><img src="img/bj/main3.jpg" alt="1" class="promo_img"></div>
+                  </div>
+                </div>
+                
+         </section>
+
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src = "js/script.js"></script>
+    <script src = "js/script_hamburger.js"></script>
+    </body>

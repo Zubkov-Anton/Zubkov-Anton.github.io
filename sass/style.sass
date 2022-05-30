@@ -1,0 +1,82 @@
+@import 'variables'
+
+
+
+body
+    background-color: $main_color
+    max-width: 1440px
+    margin: 0 auto
+header
+    min-height: 33px
+    padding-right: var(--bs-gutter-x,.75rem)
+    padding-left: var(--bs-gutter-x,.75rem)
+.logo
+    width: 220px
+    margin:  0 0 0 10px
+        
+    
+.navbar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    padding: 5px 0 5px 0
+
+.navbar_menu
+    display: flex
+    margin: 0
+    list-style-type: none
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 17px
+    
+.navbar_menu li a
+    display: block
+    padding: 0px 20px 0px 0px
+    color: #3C3C3C 
+    text-decoration: none 
+    text-align: left
+
+.hamburger
+    display: none
+
+@import 'blocks/_carousel'
+@import 'media'
+
+.promo
+    &_col
+        padding-bottom: 5%
+
+    &_scale 
+        display: inline-block
+        overflow: hidden
+
+
+
+    &_img
+        width: 100%
+        transition: 1s
+        display: block
+        
+        &:hover
+            transform: scale(1.1)
+
+
+
+// .o2t-element--hidden 
+//     opacity: 0
+//     visibility: hidden
+//     transition: .55s opacity, .55s visibility
+
+// .o2t-element:hover ~ .o2t-element--hidden 
+//     opacity: 1
+//     visibility: visible
+
+            
+
+    
+    
+
+
+       
+    
